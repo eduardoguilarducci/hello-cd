@@ -10,7 +10,7 @@ app.get("/hello-cd", (req, res) => {
     name: "Edu",
     age: 30
   };
-  return res.status(200).json({ user });
+  return res.status(200).json({ data: user });
   res.end();
 });
 
